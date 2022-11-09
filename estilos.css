@@ -1,0 +1,83 @@
+/* nav */
+.navbar{
+    background-color: violet;
+}
+
+.navbar-brand{
+    text-shadow: 0 0 5px #000; 
+}
+
+/* body */
+body{
+    background-color: blueviolet;
+}
+
+.body_background{
+    color: white;
+    text-shadow: 0 0 5px black ;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* footer */
+footer{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: violet;
+    font-size: 30px;
+    color: white;
+    box-shadow: inset 0 0 5px 1px black;
+    
+}
+
+footer i{
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+/* tour */
+.list-group-item {
+    background-color: blueviolet;
+    font-size: 20px; 
+}
+  
+.btn-primary {
+    background-color: rgb(89, 16, 158) !important; 
+    border-color: black;
+}
+  
+.btn-primary:hover {
+    background-color: rgb(39, 6, 70) !important;
+    transition: 0.5s; 
+}
+  
+/* galeria */
+.obj_flex {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative; 
+}
+
+/* contacto */
+.contact_main {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+}
+
+.contact_main .contacto_text {
+    width: 60%;
+    margin: 20px; 
+}
+
+.contact_main .contact_form {
+    width: 40%;
+    padding: 20px; 
+}

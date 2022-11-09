@@ -1,0 +1,63 @@
+.navbar {
+	background-color: violet;
+	&-brand {
+		text-shadow: 0 0 5px #000;
+	}
+}
+body {
+	background-color: blueviolet;
+}
+.body_background {
+	color: white;
+	text-shadow: 0 0 5px black ;
+}
+h3 {
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+}
+footer {
+	height: auto;
+	width: 100%;
+	text-align: center;
+	background-color: violet;
+	font-size: 30px;
+	color: white;
+	box-shadow: inset 0 0 5px 1px black;
+	i {
+		letter-spacing: 10px;
+		font-size: 50px;
+	}
+}
+.list-group-item {
+	background-color: blueviolet;
+	font-size: 20px;
+}
+.btn-primary {
+	background-color: rgb(89, 16, 158) ;
+	border-color: black;
+	&:hover {
+		background-color: rgb(39, 6, 70) ;
+		transition: 0.5s;
+	}
+}
+.obj_flex {
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+	position: relative;
+}
+.contact_main {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	.contacto_text {
+		width: 60%;
+		margin: 20px;
+	}
+	.contact_form {
+		width: 40%;
+		padding: 20px;
+	}
+}
